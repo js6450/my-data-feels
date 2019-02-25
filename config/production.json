@@ -1,5 +1,5 @@
 {
-  "host": "https://my-data-feelings.herokuapp.com",
+  "host": "https://my-data-feels.herokuapp.com",
   "port": "PORT",
   "mongodb": "MONGODB_URI"
 }

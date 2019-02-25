@@ -1,34 +1,38 @@
 // feelings-model.js - A mongoose model
-// 
+//
 // See http://mongoosejs.com/docs/models.html
 // for more of what you can do here.
 module.exports = function (app) {
   const mongooseClient = app.get('mongooseClient');
   const { Schema } = mongooseClient;
   const feelings = new Schema({
-    mood: { 
-        type: String, // text
-        required: true 
+    width:{
+      type: Number,
+      required: true
     },
-    anxiety:{
-        type: Number, // scale from 1 to 10
-        required: true
+    total: {
+      type: Number,
+      required: true
     },
-    stress:{
-        type: Number, // scale from 1 to 10
-        required: true
+    mouth: {
+      type: Number,
+      required: true
     },
-    contentment:{
-        type: Number, // scale from 1 to 10
-        required: true
+    eyebrow: {
+      type: Number,
+      required: true
     },
-    productivity:{
-        type: Number, // scale from 1 to 10
-        required: true
+    eyebrowIntensity:{
+      type: Number,
+      required: true
     },
-    fitness:{
-        type: Boolean, // true or false
-        required: true
+    eye: {
+      type: Number,
+      required: true
+    },
+    pixels: {
+      type:[Object],
+      required: true
     }
   }, {
     timestamps: true

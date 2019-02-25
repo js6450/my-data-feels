@@ -1,8 +1,6 @@
-# my-data-feelings
+# feelings
 
-> Repo for the project and workshop on how to make your own generative data feelings web application.
-
-NOTE: for documentation and details see: `/docs`
+> 
 
 ## About
 
@@ -16,7 +14,7 @@ Getting up and running is as easy as 1, 2, 3.
 2. Install your dependencies
 
     ```
-    cd path/to/my-data-feelings; npm install
+    cd path/to/feelings; npm install
     ```
 
 3. Start your app
